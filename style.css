@@ -1,3 +1,98 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: rgb(253, 251, 251);
+    color: rgb(44, 5, 41);
+    line-height: 2em;
+    font-family: monospace;
+}
+
+#cabecalho {
+    position: fixed;
+    margin-top: 0;
+    text-align: center;
+    background-color: rgb(194, 121, 133);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+}
+
+#titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(223, 223, 253);
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+#minha_foto {
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+ol ul {
+    display: block;
+    margin-left: 20px;
+    letter-spacing: normal;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article {
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rodape {
+    font-family: Georgia, Times, serif;
+    font-size: 0.8em;
+    color: olivedrab;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(214, 212, 188);
+    height: 40px;
+}
+
+table {
+    text-align: center;
+    width: 30%;
+    background-color: peachpuff;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+aside {
+    font-size: 19px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    margin-left: 30px;
+    font-size: 25px;
+    color: darkmagenta;
+}
+
+.lado-esquerdo {
+    width: 45%;
+    float: left;
+    display: flex;
+    padding-bottom: 20px;
+    text-align: justify;
+
+}
+
+.lado-direito {
+    width: 45%;
+    float: right;
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    text-align: justify;
 }
